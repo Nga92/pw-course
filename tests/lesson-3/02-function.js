@@ -185,59 +185,41 @@ switch...case để xử lý.*/
 function printMonth(month) {
     switch (month) {
         case 1:
-            {
-                console.log("Tháng 1");
-                break;
-            } case 2:
-            {
-                console.log("Tháng 2");
-                break;
-            } case 3:
-            {
-                console.log("Tháng 3");
-                break;
-            } case 4:
-            {
-                console.log("Tháng 4");
-                break;
-            } case 5:
-            {
-                console.log("Tháng 5");
-                break;
-            } case 6:
-            {
-                console.log("Tháng 6");
-                break;
-            } case 7:
-            {
-                console.log("Tháng 7");
-                break;
-            }
+            console.log("Tháng 1");
+            break;
+        case 2:
+            console.log("Tháng 2");
+            break;
+        case 3:
+            console.log("Tháng 3");
+            break;
+        case 4:
+            console.log("Tháng 4");
+            break;
+        case 5:
+            console.log("Tháng 5");
+            break;
+        case 6:
+            console.log("Tháng 6");
+            break;
+        case 7:
+            console.log("Tháng 7");
+            break;
         case 8:
-            {
-                console.log("Tháng 8");
-                break;
-            }
+            console.log("Tháng 8");
+            break;
         case 9:
-            {
-                console.log("Tháng 9");
-                break;
-            }
+            console.log("Tháng 9");
+            break;
         case 10:
-            {
-                console.log("Tháng 10");
-                break;
-            }
+            console.log("Tháng 10");
+            break;
         case 11:
-            {
-                console.log("Tháng 11");
-                break;
-            }
+            console.log("Tháng 11");
+            break;
         case 12:
-            {
-                console.log("Tháng 12");
-                break;
-            }
+            console.log("Tháng 12");
+            break;
         default:
             console.log("Tháng không hợp lệ");
     }
@@ -251,17 +233,17 @@ printMonth(13);
 function taxonomy(score) {
     let type;
     if (score < 5) {
-        type="yếu";
+        type = "yếu";
     } else if (score >= 5 && score < 6.5) {
-        type="trung bình"; 
+        type = "trung bình";
     } else if (score >= 6.5 && score < 8) {
-        type="khá"; 
+        type = "khá";
     }
     else {
-        type="giỏi"; 
+        type = "giỏi";
     }
-    
-    console.log(score + " là học sinh " +type);
+
+    console.log(score + " là học sinh " + type);
 }
 console.log("\n***** Kết quả bài 11 **********");
 taxonomy(3);

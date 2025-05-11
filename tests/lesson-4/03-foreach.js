@@ -1,4 +1,3 @@
-
 const mang = [10, 5, 6, 34, 4, 7];
 /*1. In ra tất cả các phần tử của một mảng. Ví dụ mảng [1, 2, 3] thì in ra
 1
